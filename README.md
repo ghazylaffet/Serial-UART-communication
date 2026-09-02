@@ -101,8 +101,6 @@ HAL_UART_Transmit(&huart2,
                   HAL_MAX_DELAY);
 ```
 
-> The UART instance and `huart` variable may need to be modified depending on the STM32F4 board and project configuration.
-
 ## Arduino Uno Operation
 
 The Arduino Uno receives the data through its RX pin.
@@ -226,32 +224,6 @@ This confirms that UART communication between the two embedded boards is working
 - **Arduino C/C++**
 - **STM32CubeIDE**
 - **Arduino IDE**
-
-## Learning Outcomes
-
-Through this project, the following concepts are demonstrated:
-
-- UART initialization
-- Serial data transmission
-- Serial data reception
-- TX/RX communication
-- Baud rate configuration
-- Microcontroller-to-microcontroller communication
-- Debugging using a serial monitor
-- Interfacing different embedded platforms
-
-## Future Improvements
-
-The project can be extended to support:
-
-- Bidirectional UART communication
-- Sending commands from Arduino to STM32F4
-- Receiving sensor data
-- Sending structured data or packets
-- Error detection using checksums
-- Interrupt-based UART reception
-- DMA-based UART communication
-- Communication between multiple embedded devices
 
 ## Author
 
